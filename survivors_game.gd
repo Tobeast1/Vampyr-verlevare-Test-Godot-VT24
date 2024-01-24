@@ -17,9 +17,6 @@ func _on_player_health_depleted():
 	get_tree().paused = true
 
 
-
-
-
 func _on_restart_pressed():
 	get_tree().reload_current_scene()
 
